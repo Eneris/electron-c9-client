@@ -10,12 +10,11 @@
   "scripts": {
     "start": "electron src/app.js",
     "build": "gulp build:all",
-    "clean": "gulp clean",
-    "postinstall": "gulp build"
+    "clean": "gulp clean"
   },
   "keywords": [
     "Electron",
-    "cloud9",
+    "Cloud9",
     "c9"
   ],
   "author": "Eneris",
@@ -24,6 +23,7 @@
     "gulp": "^3.9.1",
     "gulp-atom-electron": "^1.6.1",
     "gulp-clean": "^0.3.2",
-    "gulp-symdest": "^1.0.0"
+    "gulp-symdest": "^1.0.0",
+    "gulp-vinyl-zip": "^1.2.2"
   }
 }
