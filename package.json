@@ -1,0 +1,29 @@
+{
+  "name": "electron-c9-client",
+  "version": "0.0.1",
+  "description": "Electron client for Cloud9",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com:Eneris/electron-c9-client.git"
+  },
+  "scripts": {
+    "start": "electron src/app.js",
+    "build": "gulp build:all",
+    "clean": "gulp clean",
+    "postinstall": "gulp build"
+  },
+  "keywords": [
+    "Electron",
+    "cloud9",
+    "c9"
+  ],
+  "author": "Eneris",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-atom-electron": "^1.6.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-symdest": "^1.0.0"
+  }
+}
